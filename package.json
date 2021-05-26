@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/ls/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "nls": "/ls/index.js",
+    "ncp": "/cp/index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
+}
